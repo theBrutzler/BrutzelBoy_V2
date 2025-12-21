@@ -1,0 +1,1100 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "365a06a3-d093-4a49-a3f6-e0ba78d8761f")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 248.92 135.89)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "008caa2c-0a86-487b-a304-0bd606b87c48")
+		(property "Sheetname" "micro HDMI"
+			(at 248.92 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "22_micro HDMI.kicad_sch"
+			(at 248.92 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 133.35)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "168aa6c3-aeff-447e-a80c-3d4803a4956d")
+		(property "Sheetname" "RK3566_AUDIO INTERFACE"
+			(at 143.51 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "11_RK3566_AUDIO INTERFACE.kicad_sch"
+			(at 143.51 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 62.23)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "290e5ca3-357e-4f90-9a7f-603ac522b793")
+		(property "Sheetname" "RK3566_DDR_PHY"
+			(at 143.51 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3_RK3566_DDR_PHY.kicad_sch"
+			(at 143.51 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 88.9)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3132e043-163e-43c7-be76-f5b58c7eca94")
+		(property "Sheetname" "RK3566_USB/PCLE PHY"
+			(at 143.51 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "6_RK3566_USB{slash}PCLE PHY.kicad_sch"
+			(at 143.51 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 200.66)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3631c813-2c06-4307-a952-461f59e69a84")
+		(property "Sheetname" "AUDIO"
+			(at 143.51 199.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "31_AUDIO.kicad_sch"
+			(at 143.51 205.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "31")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 97.79)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "36c5eb8e-8f34-4b70-a186-afdbf28663d5")
+		(property "Sheetname" "RK3566_SARADC/GPIO"
+			(at 143.51 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "7_RK3566_SARADC{slash}GPIO.kicad_sch"
+			(at 143.51 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 248.92 144.78)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b6f2b66-22e5-4251-977e-26b746686d49")
+		(property "Sheetname" "SDIO WIFI/BT"
+			(at 248.92 144.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "23_SDIO WIFI{slash}BT.kicad_sch"
+			(at 248.92 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 248.92 49.53)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3e654b63-f116-4265-b0d8-38e4e630d6e3")
+		(property "Sheetname" "USB OTG AND HOST"
+			(at 248.92 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "13_USB OTG AND HOST.kicad_sch"
+			(at 248.92 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 248.92 91.44)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f379422-ec0a-4c3d-bf7b-50cd95e279ca")
+		(property "Sheetname" "EMMC"
+			(at 248.92 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "17_EMMC.kicad_sch"
+			(at 248.92 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 106.68)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4a00cbb6-e20c-40c6-ac5a-05ef3b321eaa")
+		(property "Sheetname" "RK3566_VI INTERFACE"
+			(at 143.51 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "8_RK3566_VI INTERFACE.kicad_sch"
+			(at 143.51 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 53.34)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5805e4e4-dab4-4f3c-be63-cae06ec1bcec")
+		(property "Sheetname" "RK3566_POWER&GND"
+			(at 143.51 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2_RK3566_POWER&GND.kicad_sch"
+			(at 143.51 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 124.46)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59c2b9d3-ac94-4693-85ca-8665172cda0e")
+		(property "Sheetname" "RK3566_VO INTERFACE_2"
+			(at 143.51 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "10_RK3566_VO INTERFACE_2.kicad_sch"
+			(at 143.51 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 71.12)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a53e4b0-f1e2-49e9-82a4-12ea82aab44b")
+		(property "Sheetname" "RK3566_OSC/PLL/PMUO1/2"
+			(at 143.51 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4_RK3566_OSC{slash}PLL{slash}PMUO1{slash}2.kicad_sch"
+			(at 143.51 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 210.82)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ecfe0f0-339e-48ac-a51f-13d807bee0d0")
+		(property "Sheetname" "POWER"
+			(at 143.51 210.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "32_POWER.kicad_sch"
+			(at 143.51 215.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "32")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 189.23)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "624a611c-b3cd-480b-9cf0-ba976730d2de")
+		(property "Sheetname" "DEBUG"
+			(at 143.51 188.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "29_DEBUG.kicad_sch"
+			(at 143.51 193.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 156.21)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8ee45504-74cd-4a09-afcc-3b8bdbf13d0f")
+		(property "Sheetname" "POWER(RK809-5)_1_PMIC"
+			(at 143.51 155.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "26_POWER(RK809-5)_1_PMIC.kicad_sch"
+			(at 143.51 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 167.64)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b6135bd-7f45-40c4-940a-f4310e9ffa6d")
+		(property "Sheetname" "POWER_FLASH_POWER_MANAGE"
+			(at 143.51 166.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "27_POWER_FLASH_POWER_MANAGE.kicad_sch"
+			(at 143.51 172.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 248.92 58.42)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9d6edea7-207d-4a70-872b-766eb5226c1e")
+		(property "Sheetname" "GPIO"
+			(at 248.92 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "14_GPIO.kicad_sch"
+			(at 248.92 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 115.57)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad35a253-f118-4090-a460-dbae9d2540d7")
+		(property "Sheetname" "RK3566_VO INTERFACE_1"
+			(at 143.51 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "9_RK3566_VO INTERFACE_1.kicad_sch"
+			(at 143.51 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 248.92 127)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b0152123-f32d-4297-9503-fd896518b4a9")
+		(property "Sheetname" "MIPI_CSI"
+			(at 248.92 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "21_MIPI_CSI.kicad_sch"
+			(at 248.92 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 248.92 109.22)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9ca7246-9dfd-4397-83eb-11e7043adfe7")
+		(property "Sheetname" "MicroSD_Card"
+			(at 248.92 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "19_MicroSD_Card.kicad_sch"
+			(at 248.92 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 147.32)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c081cd85-d4ba-4772-8a9d-133f1f2603d7")
+		(property "Sheetname" "POWER(RK809-5)_2_EXTENSION"
+			(at 143.51 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "25_POWER(RK809-5)_2_EXTENSION.kicad_sch"
+			(at 143.51 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 248.92 118.11)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c7ba1672-bd34-470c-a523-4f4c6e02dc68")
+		(property "Sheetname" "LCM_MIPI_DSI AND TP"
+			(at 248.92 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "20_LCM_MIPI_DSI AND TP.kicad_sch"
+			(at 248.92 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 248.92 100.33)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d0758dc7-1af7-43fa-86ef-91921ec56fac")
+		(property "Sheetname" "LPDDR4"
+			(at 248.92 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "18_LPDDR4.kicad_sch"
+			(at 248.92 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 80.01)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e47a0d67-abaf-47af-b2f0-9f52d3500abf")
+		(property "Sheetname" "RK3566_FLASH/SD CONTROLLER"
+			(at 143.51 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5_RK3566_FLASH{slash}SD CONTROLLER.kicad_sch"
+			(at 143.51 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 177.8)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ebea7b0a-6431-4d3e-a6a9-6ce2e9187c5c")
+		(property "Sheetname" "LCM_EDP"
+			(at 143.51 177.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "28_LCM_EDP.kicad_sch"
+			(at 143.51 182.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCSC TaishanPi RK3566"
+				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f"
+					(page "28")
+				)
+			)
+		)
+	)
+)
