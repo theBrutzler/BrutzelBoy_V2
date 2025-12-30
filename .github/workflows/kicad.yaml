@@ -1,0 +1,48 @@
+name: KiCad Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Run KiCad actions
+        uses: actions-for-kicad/kicad-actions@v1-k9.0
+        with:
+          schematic_file_name: ./KiCad_Project/LCSC TaishanPi RK3566.kicad_sch
+          #run_erc: true
+          schematic_output_pdf: true
+          schematic_output_pdf_file_name: ./LCSC TaishanPi RK3566.pdf
+
+          pcb_file_name: ./KiCad_Project/LCSC TaishanPi RK3566.kicad_pcb
+          #run_drc: true
+          pcb_output_gerbers_and_drill: true
+          pcb_output_image: true
+
+      - name: Upload schematic
+        uses: actions/upload-artifact@v4
+        with:
+          name: Schematics
+          path: ./LCSC TaishanPi RK3566.pdf
+
+      - name: Upload gerbers and drill file
+        uses: actions/upload-artifact@v4
+        with:
+          name: Gerbers
+          path: ./gerbers
+
+      - name: Upload image render
+        uses: actions/upload-artifact@v4
+        with:
+          name: PCB Render
+          path: ./pcb.png
