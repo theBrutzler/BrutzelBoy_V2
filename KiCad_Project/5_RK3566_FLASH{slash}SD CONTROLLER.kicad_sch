@@ -11749,7 +11749,7 @@
 	)
 	(text "Check the software configuration(dts)\nof voltage level, which must be\nkeep the same as hardware design."
 		(exclude_from_sim no)
-		(at 220.98 114.3 0)
+		(at 220.98 121.92 0)
 		(effects
 			(font
 				(size 2.54 2.54)

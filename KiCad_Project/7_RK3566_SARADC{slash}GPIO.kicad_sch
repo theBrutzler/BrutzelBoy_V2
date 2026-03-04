@@ -11565,7 +11565,7 @@
 	)
 	(text "The Pull Up resistor\nMust be mounted/STUFF"
 		(exclude_from_sim no)
-		(at 255.27 189.23 0)
+		(at 254.762 193.04 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -11613,7 +11613,7 @@
 	)
 	(text "Check the software configuration(dts)\nof voltage level, which must be\nkeep the same as hardware design."
 		(exclude_from_sim no)
-		(at 231.14 143.51 0)
+		(at 229.87 150.876 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -11673,7 +11673,7 @@
 	)
 	(text "Check the software \nconfiguration(dts)\nof voltage level, \nwhich must be\nkeep the same as \nhardware design."
 		(exclude_from_sim no)
-		(at 157.48 135.89 0)
+		(at 156.972 147.32 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -19556,9 +19556,9 @@
 		(at 242.57 213.36 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bef3833a-3f63-40e4-9780-4e861b82592e")
 		(property "Reference" "R17"
 			(at 244.856 212.8266 90)

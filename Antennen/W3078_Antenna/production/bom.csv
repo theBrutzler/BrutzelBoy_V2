@@ -1,0 +1,21 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #,
+"AE1, AE2",W3078,2,Antenna_Shield,,
+"C1, C10, C12, C13, C14, C15, C16, C17, C19, C21, C23, C25, C4, C5",603,14,100n 35V,C48579281,
+"C11, C18, C2, C20, C22, C24, C26, C8",603,8,22u 10V,C7432770,
+"C3, C6, C7, C9",603,4,12p,C45359931,
+"R1, R2, R3, R4, R5, R6, R7, R9",603,8,10K,,
+R8,603,1,12K4,,
+,,,,,
+,,,,,
+"L1, L4, L7, L8",603,4,60R 100MHz,C356980,X
+L9,1008,1,1.8u 4A,C53285288,X
+U4,TSOT-23-6,1,AP62150WU,C3194237,X
+Y1,Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm,1,40MHz,C337601,X
+,,,,ADWH004,X
+,,,,,
+,,,,,
+,,,,,
+,,,,M830520,woanaschda
+,,,,W3078,woanaschda
+"U1, U3",WQFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x2.9mm,2,FXMA108,,wo anaschda
+U2,WQFN-40_L5.0-W5.0-P0.40-TL-EP3.5,1,CC3351ENJARSBR,C41671458,woanaschda

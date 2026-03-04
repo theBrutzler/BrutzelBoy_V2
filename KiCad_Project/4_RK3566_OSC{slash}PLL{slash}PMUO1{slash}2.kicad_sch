@@ -12495,7 +12495,7 @@
 	)
 	(text "Caps should be \nplaced under \nthe U20 package"
 		(exclude_from_sim no)
-		(at 252.73 57.15 0)
+		(at 252.984 59.436 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12847,7 +12847,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 43.18) (xy 284.48 43.18)
+			(xy 285.75 43.18) (xy 284.48 43.18)
 		)
 		(stroke
 			(width 0)
@@ -13905,16 +13905,6 @@
 		)
 		(uuid "ff5f8098-91ce-457b-aac6-e887259efc37")
 	)
-	(label "RESETN"
-		(at 292.1 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8156d419-f542-4fee-b038-c5cb00dfdc3a")
-	)
 	(label "TSADC_SEUT_M0"
 		(at 273.05 57.15 0)
 		(effects
@@ -14048,6 +14038,28 @@
 		(uuid "2b1b37fa-e5f8-4450-9a3e-88e9d026c594")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 264.968 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESETN"
+		(shape input)
+		(at 285.75 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "343e42a2-4315-4138-a99c-8a067d882aa6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.8108 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)

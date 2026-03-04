@@ -2638,7 +2638,7 @@
 	)
 	(text "FLASH_VOL_SEL state decided \nto VCCIO2 domain IO driven by default\nLogic=L：3.3V IO driven\nLogic=H：1.8V IO driven"
 		(exclude_from_sim no)
-		(at 189.23 101.6 0)
+		(at 177.8 105.664 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3940,9 +3940,9 @@
 		(at 153.67 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5ed08a8c-0ce0-429e-85bf-b5679dd169ec")
 		(property "Reference" "R60"
 			(at 144.78 91.44 0)
@@ -6440,9 +6440,9 @@
 		(at 237.49 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e25efce7-a413-4079-a8f6-a9be26a0856a")
 		(property "Reference" "R61"
 			(at 238.76 88.9 90)

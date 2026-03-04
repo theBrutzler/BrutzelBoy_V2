@@ -5,149 +5,6 @@
 	(uuid "5d41cc01-e10e-403d-8e95-db5937f84535")
 	(paper "A3")
 	(lib_symbols
-		(symbol "LCSC Taish-easyedapro:0402WGF1000TCE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LCSC Taish-easyedapro:R0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20170920/C25076_1505901197574982707.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "0402WGF1000TCE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL(厚声)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C25076"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "100Ω(1000) ±1% 编带"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0402WGF1000TCE_1_0"
-				(rectangle
-					(start -2.54 -1.016)
-					(end 2.54 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LCSC Taish-easyedapro:0402WGF5102TCE"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2269,12 +2126,6 @@
 		(uuid "6ad2cce6-3acb-43b7-9296-34b10fe7a3fe")
 	)
 	(junction
-		(at 238.76 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7861ab43-543d-4699-a511-9cae12ec5fb7")
-	)
-	(junction
 		(at 220.98 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2299,12 +2150,6 @@
 		(uuid "91468060-1cb9-41fa-ba95-1f765b705442")
 	)
 	(junction
-		(at 248.92 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92b995e3-2aba-467e-91fa-912cae040246")
-	)
-	(junction
 		(at 220.98 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2321,12 +2166,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b1ff794-5a85-46a1-8a1e-d8014f84246d")
-	)
-	(junction
-		(at 226.06 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3b5c919-e5af-412a-9199-79a2e223141f")
 	)
 	(junction
 		(at 162.56 69.85)
@@ -2351,12 +2190,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4c25957-f797-4a42-91d3-adff0e443157")
-	)
-	(junction
-		(at 248.92 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5841c88-7b24-4aa8-9eb2-8248e001cfc0")
 	)
 	(junction
 		(at 220.98 95.25)
@@ -2422,7 +2255,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 195.58) (xy 226.06 189.23)
+			(xy 226.06 182.88) (xy 226.06 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2482,16 +2315,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 97.79) (xy 248.92 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26958273-038a-49a6-999f-6c892f9fef9c")
-	)
-	(wire
-		(pts
 			(xy 236.22 74.93) (xy 238.76 74.93)
 		)
 		(stroke
@@ -2512,16 +2335,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 189.23) (xy 198.12 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "311f133f-af51-453d-b11b-befa8a6ccf88")
-	)
-	(wire
-		(pts
 			(xy 185.42 80.01) (xy 181.61 80.01)
 		)
 		(stroke
@@ -2529,16 +2342,6 @@
 			(type default)
 		)
 		(uuid "3406e7a2-254d-45d2-ba7e-aacbda58588d")
-	)
-	(wire
-		(pts
-			(xy 231.14 85.09) (xy 231.14 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "341d5275-3e15-486a-85b9-9c14e566128c")
 	)
 	(wire
 		(pts
@@ -2582,16 +2385,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 97.79) (xy 238.76 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3efaa512-600b-4b49-a49a-aeb57054ee34")
-	)
-	(wire
-		(pts
 			(xy 185.42 100.33) (xy 181.61 100.33)
 		)
 		(stroke
@@ -2599,16 +2392,6 @@
 			(type default)
 		)
 		(uuid "44f6a777-f3ce-4106-a14c-8ba051201fbe")
-	)
-	(wire
-		(pts
-			(xy 226.06 182.88) (xy 226.06 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "467b120f-a5a8-401c-b361-05ae008f2eb4")
 	)
 	(wire
 		(pts
@@ -2662,7 +2445,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 85.09) (xy 231.14 85.09)
+			(xy 218.44 85.09) (xy 238.76 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2699,16 +2482,6 @@
 			(type default)
 		)
 		(uuid "714dc913-3893-4e2b-a259-92fdb06c0003")
-	)
-	(wire
-		(pts
-			(xy 238.76 97.79) (xy 238.76 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "777c335a-301c-4bf2-94a9-dabdff2cfa27")
 	)
 	(wire
 		(pts
@@ -2759,16 +2532,6 @@
 			(type default)
 		)
 		(uuid "8117962a-1dcf-4555-9cca-fdf0a7d093b7")
-	)
-	(wire
-		(pts
-			(xy 248.92 97.79) (xy 248.92 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e601b77-cf30-47b5-ae97-53fb1db54dc6")
 	)
 	(wire
 		(pts
@@ -2912,16 +2675,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 74.93) (xy 259.08 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1ecb54e-399b-4d15-bf25-521f2884a76e")
-	)
-	(wire
-		(pts
 			(xy 269.24 90.17) (xy 279.4 90.17)
 		)
 		(stroke
@@ -2939,16 +2692,6 @@
 			(type default)
 		)
 		(uuid "b799081c-1eff-4a2b-8a47-c3b5a0aee8a2")
-	)
-	(wire
-		(pts
-			(xy 208.28 189.23) (xy 198.12 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b97089d2-1e48-4d09-927a-8701c31e911f")
 	)
 	(wire
 		(pts
@@ -2992,16 +2735,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 74.93) (xy 248.92 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2043c13-e457-4b7b-8e2d-bdfa0342b249")
-	)
-	(wire
-		(pts
 			(xy 220.98 102.87) (xy 220.98 105.41)
 		)
 		(stroke
@@ -3009,16 +2742,6 @@
 			(type default)
 		)
 		(uuid "e97e3e97-d377-4019-b753-8f39021cbd86")
-	)
-	(wire
-		(pts
-			(xy 248.92 97.79) (xy 251.46 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebd0ba68-3203-41f0-b1f9-f9c7919fa2b4")
 	)
 	(wire
 		(pts
@@ -3062,7 +2785,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 74.93) (xy 248.92 74.93)
+			(xy 238.76 74.93) (xy 259.08 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3082,7 +2805,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 74.93) (xy 238.76 77.47)
+			(xy 238.76 74.93) (xy 238.76 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3139,16 +2862,6 @@
 			(type default)
 		)
 		(uuid "fe351064-8029-4c1c-95cb-4c09b5e4b720")
-	)
-	(wire
-		(pts
-			(xy 226.06 189.23) (xy 218.44 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe8e95a1-0b15-4f08-8eef-fac6e3525d7f")
 	)
 	(image
 		(at 262.89 118.491)
@@ -4971,179 +4684,6 @@
 			)
 		)
 	)
-	(global_label "VDD_CPU"
-		(shape input)
-		(at 251.46 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "899e5e20-d1e5-48a6-93fb-534d9280f3e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.9119 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Taish-easyedapro:0402WGF1000TCE")
-		(at 238.76 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "092ea085-ef82-4dc6-9b66-4dbac1218513")
-		(property "Reference" "R54"
-			(at 240.03 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "0402WGF1000TCE"
-			(at 241.3 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LCSC Taish-easyedapro:R0402"
-			(at 238.76 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20170920/C25076_1505901197574982707.pdf"
-			(at 238.76 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "0402WGF1000TCE"
-			(at 238.76 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 238.76 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C25076"
-			(at 238.76 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 238.76 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "100Ω(1000) ±1% 编带"
-			(at 238.76 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "@Board Name" ""
-			(at 238.76 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "@Create Time" ""
-			(at 238.76 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "@Update Time" ""
-			(at 238.76 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Drawed" ""
-			(at 238.76 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44bc21cf-3b72-4050-a3af-accd466590b0")
-		)
-		(pin "2"
-			(uuid "245fb735-adff-4636-b8ad-981b9583a486")
-		)
-		(instances
-			(project ""
-				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f/c081cd85-d4ba-4772-8a9d-133f1f2603d7"
-					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "LCSC Taish-easyedapro:TCS4525_WT")
 		(at 203.2 87.63 0)
@@ -6170,7 +5710,7 @@
 	)
 	(symbol
 		(lib_id "LCSC Taish-easyedapro:Ground-GND")
-		(at 226.06 203.2 0)
+		(at 226.06 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6178,7 +5718,7 @@
 		(dnp no)
 		(uuid "686fbf14-9523-495a-bfb1-44df13949e42")
 		(property "Reference" "#PWR01"
-			(at 226.06 203.2 0)
+			(at 226.06 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,7 +5727,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 209.55 0)
+			(at 226.06 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6195,7 +5735,7 @@
 			)
 		)
 		(property "Footprint" "LCSC Taish-easyedapro:"
-			(at 226.06 203.2 0)
+			(at 226.06 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6204,7 +5744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 203.2 0)
+			(at 226.06 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6213,7 +5753,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 203.2 0)
+			(at 226.06 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,73 +5768,6 @@
 			(project "LCSC TaishanPi RK3566"
 				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f/c081cd85-d4ba-4772-8a9d-133f1f2603d7"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Taish-easyedapro:Power-VCC")
-		(at 198.12 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f974f6a-798e-46f6-bad0-c28f31e572da")
-		(property "Reference" "#PWR0386"
-			(at 198.12 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC_3V3"
-			(at 198.12 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 153 0 255 1)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "LCSC Taish-easyedapro:"
-			(at 198.12 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e41df191-004b-4333-af5b-6552fc0878a9")
-		)
-		(instances
-			(project ""
-				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f/c081cd85-d4ba-4772-8a9d-133f1f2603d7"
-					(reference "#PWR0386")
 					(unit 1)
 				)
 			)
@@ -6715,165 +6188,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSC Taish-easyedapro:CL05A105KP5NNNC")
-		(at 248.92 81.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "95be3453-83fd-417b-8a88-5d01b8c96e0a")
-		(property "Reference" "C157"
-			(at 251.46 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1uF"
-			(at 251.46 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 248.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20160103/1457707670698.pdf"
-			(at 248.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "容值:1uF;精度:±10%;额定电压:10V;材质(温度系数):X5R;"
-			(at 248.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "CL05A105KP5NNNC"
-			(at 248.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 248.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C14445"
-			(at 248.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 248.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "1uF ±10% 10V"
-			(at 248.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Footprint" "0402"
-			(at 251.46 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "@Board Name" ""
-			(at 248.92 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "@Create Time" ""
-			(at 248.92 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "@Update Time" ""
-			(at 248.92 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Drawed" ""
-			(at 248.92 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19d967e5-fbb5-4343-a2cf-a07ef52d9a05")
-		)
-		(pin "2"
-			(uuid "2fd23c02-c742-4b1a-83df-943685bb32c8")
-		)
-		(instances
-			(project ""
-				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f/c081cd85-d4ba-4772-8a9d-133f1f2603d7"
-					(reference "C157")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LCSC Taish-easyedapro:GRT188R61A226ME13D")
 		(at 259.08 81.28 90)
 		(unit 1)
@@ -7027,158 +6341,6 @@
 			(project ""
 				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f/c081cd85-d4ba-4772-8a9d-133f1f2603d7"
 					(reference "C158")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Taish-easyedapro:ERJ2GE0R00X")
-		(at 213.36 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b262475d-8dbd-41e2-b1ed-6890cae2b74a")
-		(property "Reference" "R56"
-			(at 205.74 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0Ω"
-			(at 217.17 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 0 255 0 1)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "LCSC Taish-easyedapro:R0402"
-			(at 213.36 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20181106/C242160_CA6E41971DE5A1DCD79442F3CF334CD6.pdf"
-			(at 213.36 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "电阻类型:-;阻值:0Ω;功率:100mW;温度系数:-100ppm/°C~+600ppm/°C;最大工作电压:-;工作温度范围:-55°C~+155°C;"
-			(at 213.36 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "ERJ2GE0R00X"
-			(at 213.36 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "PANASONIC(松下)"
-			(at 213.36 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "NC"
-			(at 213.36 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 213.36 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "0Ω 100mW"
-			(at 213.36 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "@Board Name" ""
-			(at 213.36 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "@Create Time" ""
-			(at 213.36 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "@Update Time" ""
-			(at 213.36 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Drawed" ""
-			(at 213.36 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e32d8f2-e9dd-4827-adca-847c3c0d97fe")
-		)
-		(pin "2"
-			(uuid "36c2d47f-8a74-4841-b937-eb7c0a493f6b")
-		)
-		(instances
-			(project ""
-				(path "/365a06a3-d093-4a49-a3f6-e0ba78d8761f/c081cd85-d4ba-4772-8a9d-133f1f2603d7"
-					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -8003,7 +7165,7 @@
 	)
 	(symbol
 		(lib_id "LCSC Taish-easyedapro:CL05A105KP5NNNC")
-		(at 226.06 199.39 90)
+		(at 226.06 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8011,7 +7173,7 @@
 		(dnp no)
 		(uuid "ff9afdab-167d-449b-9a3e-d1286d5e766d")
 		(property "Reference" "C162"
-			(at 228.6 198.12 90)
+			(at 228.6 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8020,7 +7182,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 228.6 200.66 90)
+			(at 228.6 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8029,7 +7191,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 226.06 199.39 0)
+			(at 226.06 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8038,7 +7200,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20160103/1457707670698.pdf"
-			(at 226.06 199.39 0)
+			(at 226.06 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8047,7 +7209,7 @@
 			)
 		)
 		(property "Description" "容值:1uF;精度:±10%;额定电压:10V;材质(温度系数):X5R;"
-			(at 226.06 199.39 0)
+			(at 226.06 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8056,7 +7218,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL05A105KP5NNNC"
-			(at 226.06 199.39 0)
+			(at 226.06 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8065,7 +7227,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 226.06 199.39 0)
+			(at 226.06 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8074,7 +7236,7 @@
 			)
 		)
 		(property "Supplier Part" "C14445"
-			(at 226.06 199.39 0)
+			(at 226.06 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8083,7 +7245,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 226.06 199.39 0)
+			(at 226.06 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8092,7 +7254,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1uF ±10% 10V"
-			(at 226.06 199.39 0)
+			(at 226.06 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8101,7 +7263,7 @@
 			)
 		)
 		(property "Supplier Footprint" "0402"
-			(at 228.6 203.2 90)
+			(at 228.6 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,7 +7272,7 @@
 			)
 		)
 		(property "@Board Name" ""
-			(at 226.06 199.39 90)
+			(at 226.06 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8119,7 +7281,7 @@
 			)
 		)
 		(property "@Create Time" ""
-			(at 226.06 199.39 90)
+			(at 226.06 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8128,7 +7290,7 @@
 			)
 		)
 		(property "@Update Time" ""
-			(at 226.06 199.39 90)
+			(at 226.06 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8137,7 +7299,7 @@
 			)
 		)
 		(property "Drawed" ""
-			(at 226.06 199.39 90)
+			(at 226.06 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)

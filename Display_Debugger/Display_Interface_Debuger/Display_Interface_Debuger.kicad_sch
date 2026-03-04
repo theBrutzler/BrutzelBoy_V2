@@ -1,0 +1,6538 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9f2ae790-39a4-473a-bf14-6f9b527af354")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EASYEDA2KICAD:THD0310-45CL-GF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 38.1 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "THD0310-45CL-GF"
+				(at 0 -38.1 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:FPC-SMD_45P-P0.60_DIANWEI_8.03A0.045200"
+				(at 0 -40.64 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C19078618"
+				(at 0 -43.18 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "THD0310-45CL-GF_0_1"
+				(rectangle
+					(start -5.08 30.48)
+					(end 5.08 -30.48)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 29.21)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 27.94 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 25.4 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 22.86 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 20.32 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 17.78 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 15.24 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 12.7 0)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 10.16 0)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 7.62 0)
+					(length 2.54)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -10.16 0)
+					(length 2.54)
+					(name "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -12.7 0)
+					(length 2.54)
+					(name "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -15.24 0)
+					(length 2.54)
+					(name "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -17.78 0)
+					(length 2.54)
+					(name "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -20.32 0)
+					(length 2.54)
+					(name "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -22.86 0)
+					(length 2.54)
+					(name "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -25.4 0)
+					(length 2.54)
+					(name "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -27.94 0)
+					(length 2.54)
+					(name "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 33.02 270)
+					(length 2.54)
+					(name "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -33.02 90)
+					(length 2.54)
+					(name "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 26.67 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 24.13 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 21.59 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 19.05 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 16.51 180)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 13.97 180)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 11.43 180)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 8.89 180)
+					(length 2.54)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 6.35 180)
+					(length 2.54)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -6.35 180)
+					(length 2.54)
+					(name "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -8.89 180)
+					(length 2.54)
+					(name "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -11.43 180)
+					(length 2.54)
+					(name "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -13.97 180)
+					(length 2.54)
+					(name "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -16.51 180)
+					(length 2.54)
+					(name "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -19.05 180)
+					(length 2.54)
+					(name "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -21.59 180)
+					(length 2.54)
+					(name "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -24.13 180)
+					(length 2.54)
+					(name "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -26.67 180)
+					(length 2.54)
+					(name "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 127 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02de524b-fe79-4994-95cd-a84524f22ac4")
+	)
+	(junction
+		(at 127 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "031655ba-a13f-4053-aa98-e7aca78f754d")
+	)
+	(junction
+		(at 127 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0372b78a-e16f-4c94-bbc1-8a617d0d3ad8")
+	)
+	(junction
+		(at 151.13 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0655fabd-41c8-4b9f-ba98-1729c4439612")
+	)
+	(junction
+		(at 138.43 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dc6a9bd-46ae-432f-8ad3-d0af5cf4db75")
+	)
+	(junction
+		(at 144.78 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1267886e-7408-4098-ba3f-1450abffd5f6")
+	)
+	(junction
+		(at 127 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15df7d21-ea0f-4e8a-85a8-f055e1c2f5ca")
+	)
+	(junction
+		(at 151.13 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1802186b-434e-4cdb-9544-d1d8a6c59c2c")
+	)
+	(junction
+		(at 127 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a49e02a-d86f-47e0-b250-e32c09f2f18d")
+	)
+	(junction
+		(at 151.13 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c64da4a-f1df-4329-a5c1-0d1193204fa0")
+	)
+	(junction
+		(at 144.78 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "219cfe94-0dd7-4cfd-aa39-bd3be19cdcaf")
+	)
+	(junction
+		(at 151.13 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26e16950-5678-4d3f-8eff-2d98f1e7a892")
+	)
+	(junction
+		(at 138.43 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "272e9e6d-cc7b-4a59-b571-f0e4989ece3a")
+	)
+	(junction
+		(at 151.13 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "311daebf-e16b-4a7f-ad00-3781a2f0af1a")
+	)
+	(junction
+		(at 144.78 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32c4a0a6-8628-4a2a-9a0a-7ef26370c9f3")
+	)
+	(junction
+		(at 151.13 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "345b7581-9dee-445a-80cb-0d52745d6738")
+	)
+	(junction
+		(at 151.13 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34db9285-19fa-4f4f-a507-8222ae2ff485")
+	)
+	(junction
+		(at 138.43 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "350528cf-8ca7-4c16-9c98-7e06e2bda04b")
+	)
+	(junction
+		(at 138.43 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "358ed0e6-704d-49d8-9bea-4c532075ba27")
+	)
+	(junction
+		(at 151.13 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c046d1d-0bdb-46aa-84b9-5f93b58fd56a")
+	)
+	(junction
+		(at 127 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41668703-0bea-4433-b587-344157eec1e1")
+	)
+	(junction
+		(at 144.78 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44443b49-6879-412b-b019-98fd2cac0a3a")
+	)
+	(junction
+		(at 151.13 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44f01293-5a25-482f-b335-1d8084f67cdb")
+	)
+	(junction
+		(at 138.43 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45170e66-e3f7-42d0-b4b8-ad2037011728")
+	)
+	(junction
+		(at 144.78 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4825f523-1a9d-413e-af9b-6bd139c9425e")
+	)
+	(junction
+		(at 138.43 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a6f9b07-cbbc-4ab9-a284-60e1192fcf83")
+	)
+	(junction
+		(at 138.43 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bf7af1d-c6b2-4732-a158-2f0edf7906cc")
+	)
+	(junction
+		(at 144.78 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d7014f0-1e44-453b-a71a-1f1ee00bd3f2")
+	)
+	(junction
+		(at 127 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d9b0023-298a-44e7-8e67-86abdb836cea")
+	)
+	(junction
+		(at 151.13 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "513a720a-ca6a-4bca-af1a-e4d13e1635fd")
+	)
+	(junction
+		(at 151.13 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52d090f8-7aef-4daf-8857-f1469122cbc0")
+	)
+	(junction
+		(at 127 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "534b801c-e048-4289-b627-556790200635")
+	)
+	(junction
+		(at 151.13 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "561ea145-ae71-4713-8704-87235cea202f")
+	)
+	(junction
+		(at 138.43 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57484aa2-49ea-4346-8f91-b820a22c3870")
+	)
+	(junction
+		(at 151.13 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60a908b1-8c7d-4135-8ff1-72436cccefc0")
+	)
+	(junction
+		(at 151.13 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61b9f80f-fb2a-4147-a1e1-2833c680cc52")
+	)
+	(junction
+		(at 151.13 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62871b27-740d-48d3-92bc-8b817fb029bf")
+	)
+	(junction
+		(at 144.78 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "646e5514-6ad8-4020-89ee-0e18dd0eb129")
+	)
+	(junction
+		(at 127 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6551cf66-65da-4b90-a3eb-a35e04a16540")
+	)
+	(junction
+		(at 127 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "675c97ec-a6d8-45cb-9bcd-9b6657b85de2")
+	)
+	(junction
+		(at 144.78 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e911f33-f670-466e-b9d6-37dd73dfece0")
+	)
+	(junction
+		(at 138.43 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "708c5c91-86e7-4a69-b9a7-9381014cf607")
+	)
+	(junction
+		(at 138.43 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7641a74d-a783-4e1a-8a5d-94de86427d7b")
+	)
+	(junction
+		(at 127 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d2ff529-0702-4c86-a8b1-15fd0c0679cc")
+	)
+	(junction
+		(at 138.43 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e748ed4-e239-4312-90a0-96c9c8ecf333")
+	)
+	(junction
+		(at 151.13 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f831ac0-9c89-4dbd-ac4d-0775122d8d70")
+	)
+	(junction
+		(at 151.13 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81851fb2-83c3-49be-9ce9-13b3c0925641")
+	)
+	(junction
+		(at 138.43 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82e312cb-434b-47d8-8620-21a5b34ecba2")
+	)
+	(junction
+		(at 138.43 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "864d32cb-eba5-4438-8dcc-643a03f1e4d5")
+	)
+	(junction
+		(at 127 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88909d97-bd47-4405-9d99-04b4be23dbd5")
+	)
+	(junction
+		(at 144.78 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "889c2b55-1e94-47c0-bdff-8796947093e0")
+	)
+	(junction
+		(at 127 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b5456e1-05a6-4bdd-80d0-dc700edf60fd")
+	)
+	(junction
+		(at 144.78 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8de026f3-471d-4c8b-afe2-ab3876de7267")
+	)
+	(junction
+		(at 138.43 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f165da9-0b6f-4812-90fd-db1062eb3840")
+	)
+	(junction
+		(at 144.78 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f34947b-fe14-476e-b75e-d061c6271a7b")
+	)
+	(junction
+		(at 144.78 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "923a155d-0ed6-4666-96f9-6a2a659b88eb")
+	)
+	(junction
+		(at 127 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "937583d7-7c6b-4352-807d-691f1f98780a")
+	)
+	(junction
+		(at 138.43 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "968dbe11-607b-4217-9a6e-b144faa289be")
+	)
+	(junction
+		(at 151.13 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9810af67-9edd-4a9e-88c5-6e5bbcd963b8")
+	)
+	(junction
+		(at 144.78 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "981d8801-df35-4647-9c69-87669b2ac923")
+	)
+	(junction
+		(at 138.43 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c47ac75-d138-4665-b591-2b59964f833c")
+	)
+	(junction
+		(at 144.78 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2f5c8ac-aa38-41fa-a6ea-6b365017d500")
+	)
+	(junction
+		(at 151.13 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5544de4-3319-46ab-8adc-5b708a370636")
+	)
+	(junction
+		(at 138.43 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af9de003-2da9-43fb-8dec-a4a39c1fa7b1")
+	)
+	(junction
+		(at 127 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afab2f12-53f9-4ab9-a7dd-5c0455a1b85b")
+	)
+	(junction
+		(at 138.43 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1a921ad-ea63-4888-ab7b-1c2200f6bbd1")
+	)
+	(junction
+		(at 144.78 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b81fa8c2-2eb1-4711-a668-ba20da2284a3")
+	)
+	(junction
+		(at 138.43 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb07c5b6-f121-4338-95bd-e99cfa04828f")
+	)
+	(junction
+		(at 138.43 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd309b7c-ca7f-4454-a943-fb7d06c56b2d")
+	)
+	(junction
+		(at 127 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be7b44e8-2f10-4094-b628-e4bc10b1df4a")
+	)
+	(junction
+		(at 151.13 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf9cef98-0eca-4f16-b6e2-5ef9432f47a6")
+	)
+	(junction
+		(at 144.78 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5d75217-8676-4712-bbaf-eae7e55d9707")
+	)
+	(junction
+		(at 144.78 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8c4396a-adf3-4e1b-aaac-6dd1b688709c")
+	)
+	(junction
+		(at 151.13 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c95965be-01f5-401b-8f50-2b8082aaeeed")
+	)
+	(junction
+		(at 144.78 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfba58c7-cc6d-4a82-95fb-14812c4b766f")
+	)
+	(junction
+		(at 144.78 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfcc7d68-1ec8-4694-88ff-f5e8c9b972bd")
+	)
+	(junction
+		(at 138.43 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0dc7e23-e184-47c9-abff-a30a6df788af")
+	)
+	(junction
+		(at 127 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d139efd7-ded5-4d58-bfaa-56f1ccbd2c94")
+	)
+	(junction
+		(at 138.43 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1eb0435-7925-40f6-8fe1-47d76d8074e5")
+	)
+	(junction
+		(at 127 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2a0be78-4711-4b1d-a111-c955a07aca65")
+	)
+	(junction
+		(at 127 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d902043c-728a-4581-b003-9abd4fab7153")
+	)
+	(junction
+		(at 144.78 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dacc6fd4-cdc6-4115-a4ff-96e9d8a9b22e")
+	)
+	(junction
+		(at 151.13 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddac0132-e07c-4820-8f44-d7f2ac5d8da9")
+	)
+	(junction
+		(at 127 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "debb45ac-a57b-4e71-854f-7f33a22f90f0")
+	)
+	(junction
+		(at 151.13 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ded495d1-3d91-433f-b7aa-2571f27f93b4")
+	)
+	(junction
+		(at 127 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfb96520-5b30-41f6-b03f-f897947ed222")
+	)
+	(junction
+		(at 127 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0da42bf-0ed4-49d3-a40c-dfc99bd5b354")
+	)
+	(junction
+		(at 144.78 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2b8baa5-167b-415e-a90f-8348317bb633")
+	)
+	(junction
+		(at 127 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3aea5b6-154e-4423-95aa-43efd74219e1")
+	)
+	(junction
+		(at 138.43 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7b9ccbd-f609-4909-a55a-07004bae34ba")
+	)
+	(junction
+		(at 144.78 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f51bd795-0bc4-4002-b140-f472021c859a")
+	)
+	(junction
+		(at 144.78 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f92b27e4-ad06-459c-97e9-6b78965e79dd")
+	)
+	(junction
+		(at 138.43 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb82d21b-1bb0-475e-a9f4-f9a4a72c9d10")
+	)
+	(wire
+		(pts
+			(xy 111.76 91.44) (xy 127 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02bda692-6ed2-450f-8e83-6b7061d96cb3")
+	)
+	(wire
+		(pts
+			(xy 111.76 76.2) (xy 127 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f659db-20bc-4a81-a92a-bb8f3e0c9d75")
+	)
+	(wire
+		(pts
+			(xy 127 71.12) (xy 144.78 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050da32b-2f41-44c2-815e-04e7e50cb34a")
+	)
+	(wire
+		(pts
+			(xy 111.76 114.3) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05efeaa1-5633-4831-b4d0-befd0723b8d4")
+	)
+	(wire
+		(pts
+			(xy 111.76 87.63) (xy 138.43 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "080e96e6-21fb-4610-a467-fe883f24a70d")
+	)
+	(wire
+		(pts
+			(xy 144.78 60.96) (xy 151.13 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088835a1-66b9-4fe8-b650-e0ca77ea838a")
+	)
+	(wire
+		(pts
+			(xy 138.43 125.73) (xy 138.43 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098215d0-eb68-40f8-a2e4-f43685025b9e")
+	)
+	(wire
+		(pts
+			(xy 111.76 111.76) (xy 127 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ecc1e28-7fe7-4a7b-97ff-7d03e6138c38")
+	)
+	(wire
+		(pts
+			(xy 171.45 53.34) (xy 171.45 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f0cfe9c-a7b0-4069-802e-904cbadf0e90")
+	)
+	(wire
+		(pts
+			(xy 151.13 71.12) (xy 166.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f571bb7-06fb-4aeb-b590-eb79a2831782")
+	)
+	(wire
+		(pts
+			(xy 138.43 115.57) (xy 166.37 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b30bcd-0bce-493d-b040-abca75537a7a")
+	)
+	(wire
+		(pts
+			(xy 151.13 68.58) (xy 166.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f209a3-6143-4465-ad7c-3738acf7a27c")
+	)
+	(wire
+		(pts
+			(xy 138.43 100.33) (xy 166.37 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1463613f-e520-4a9d-a124-2116ee91df2e")
+	)
+	(wire
+		(pts
+			(xy 144.78 96.52) (xy 151.13 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ccfa39-313f-483f-abf0-3f99a7841be7")
+	)
+	(wire
+		(pts
+			(xy 127 96.52) (xy 144.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1615eff0-7b69-42fb-9ecd-0214162ede8d")
+	)
+	(wire
+		(pts
+			(xy 111.76 77.47) (xy 138.43 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc80597-29f3-44b8-bb09-663c5c549503")
+	)
+	(wire
+		(pts
+			(xy 111.76 69.85) (xy 138.43 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2950d7-4b97-490b-b630-d308a40361e9")
+	)
+	(wire
+		(pts
+			(xy 111.76 68.58) (xy 127 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ac9cad-c5ac-4a6d-b887-5b04c78c4b2f")
+	)
+	(wire
+		(pts
+			(xy 111.76 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b88e7d-e7fb-48bf-9fe3-8c3739d70584")
+	)
+	(wire
+		(pts
+			(xy 111.76 106.68) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233e2682-c7a2-4a1e-ac7e-46fd7dfaa34d")
+	)
+	(wire
+		(pts
+			(xy 111.76 71.12) (xy 127 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2663e8aa-57d5-45b4-beb9-8c85ee9b3cc8")
+	)
+	(wire
+		(pts
+			(xy 151.13 76.2) (xy 166.37 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2761d5fc-79bd-4bf3-b039-7c6b2841684a")
+	)
+	(wire
+		(pts
+			(xy 151.13 114.3) (xy 166.37 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a729689-b3dd-466b-9f1b-a3e95c59fbcf")
+	)
+	(wire
+		(pts
+			(xy 138.43 62.23) (xy 166.37 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "317c0213-1761-42ce-8807-ca2b95b162eb")
+	)
+	(wire
+		(pts
+			(xy 119.38 55.88) (xy 138.43 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "319f8795-95bb-459c-86fb-d88c60b28918")
+	)
+	(wire
+		(pts
+			(xy 151.13 91.44) (xy 166.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "322175e5-a892-4a6b-b80b-aabb519b0283")
+	)
+	(wire
+		(pts
+			(xy 111.76 81.28) (xy 127 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3270d80a-f38e-47f2-aa22-5f0966681d17")
+	)
+	(wire
+		(pts
+			(xy 138.43 110.49) (xy 166.37 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b675c4-af46-49a9-9455-774742e53e93")
+	)
+	(wire
+		(pts
+			(xy 127 109.22) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e1e917-abac-4199-a871-141a105fb194")
+	)
+	(wire
+		(pts
+			(xy 111.76 72.39) (xy 138.43 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "380a2dd3-2b37-4d25-9b6a-0f672a1c4cf7")
+	)
+	(wire
+		(pts
+			(xy 138.43 80.01) (xy 166.37 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a8fcc1e-9d17-4f03-ba6a-03fb0099d5a8")
+	)
+	(wire
+		(pts
+			(xy 151.13 109.22) (xy 166.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c68e6af-0641-40bc-8e54-19aa18be0e47")
+	)
+	(wire
+		(pts
+			(xy 138.43 90.17) (xy 166.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db1e550-48d0-41ea-907d-362076209adc")
+	)
+	(wire
+		(pts
+			(xy 111.76 82.55) (xy 138.43 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec0c67e-612d-469c-9715-0046ff9067c1")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 144.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4038e8b4-eca0-416b-93f2-1bc70e58cfa0")
+	)
+	(wire
+		(pts
+			(xy 144.78 106.68) (xy 151.13 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41de46f6-0bcd-4b18-a1bb-d18c3f74dcd5")
+	)
+	(wire
+		(pts
+			(xy 144.78 91.44) (xy 151.13 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42db0bd0-1428-409c-8dea-aff4c903e590")
+	)
+	(wire
+		(pts
+			(xy 151.13 106.68) (xy 166.37 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b7233d-f73f-45fa-81af-00edcc5e4040")
+	)
+	(wire
+		(pts
+			(xy 144.78 111.76) (xy 151.13 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ccbf0f-ae9a-47d1-a46b-85ef5c764e9b")
+	)
+	(wire
+		(pts
+			(xy 171.45 125.73) (xy 138.43 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47cbd4cc-60f7-478e-8d35-bbb1b4a35cba")
+	)
+	(wire
+		(pts
+			(xy 127 83.82) (xy 144.78 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d4fcec-94ca-4745-9390-a5ce9d7a3e6d")
+	)
+	(wire
+		(pts
+			(xy 111.76 107.95) (xy 138.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1c215e-0e97-4512-af93-d26e8a28fb63")
+	)
+	(wire
+		(pts
+			(xy 111.76 104.14) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c893f68-253c-4b23-9ba4-2cc5bc444313")
+	)
+	(wire
+		(pts
+			(xy 151.13 88.9) (xy 166.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d06c6de-9b3a-4b54-87a9-066e5ea39692")
+	)
+	(wire
+		(pts
+			(xy 119.38 121.92) (xy 138.43 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e345b8a-517d-4b1d-a024-a58c36c8a9fc")
+	)
+	(wire
+		(pts
+			(xy 138.43 72.39) (xy 166.37 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e741af5-7de3-4bc5-ba5e-0ba3465c80e0")
+	)
+	(wire
+		(pts
+			(xy 127 60.96) (xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c38b71-3543-4551-85b3-0a3ef28146f8")
+	)
+	(wire
+		(pts
+			(xy 138.43 113.03) (xy 166.37 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5213a55b-fd2e-411b-995e-4e86f7ce4f18")
+	)
+	(wire
+		(pts
+			(xy 111.76 90.17) (xy 138.43 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541be94c-f4c5-4088-8da3-5f26bb3b93a2")
+	)
+	(wire
+		(pts
+			(xy 127 78.74) (xy 144.78 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f63d4b-7daf-4b42-a50c-51e10469cdb9")
+	)
+	(wire
+		(pts
+			(xy 127 93.98) (xy 144.78 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7487ea-89d7-4dba-aa8c-81abebc5e7dc")
+	)
+	(wire
+		(pts
+			(xy 144.78 93.98) (xy 151.13 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2aa2da-2b9c-4d69-87f5-9de570384e55")
+	)
+	(wire
+		(pts
+			(xy 151.13 101.6) (xy 166.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "603fc279-34ad-4c34-82ee-b067049b2202")
+	)
+	(wire
+		(pts
+			(xy 111.76 100.33) (xy 138.43 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "610c2e53-cc1b-4a80-a3b9-d3c59d5e0613")
+	)
+	(wire
+		(pts
+			(xy 111.76 113.03) (xy 138.43 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "617c38bc-8016-4efb-89bd-0b4328a72c1f")
+	)
+	(wire
+		(pts
+			(xy 138.43 102.87) (xy 166.37 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6343ecc3-3aa3-45bf-bbc1-ac563a57da17")
+	)
+	(wire
+		(pts
+			(xy 144.78 101.6) (xy 151.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f46848-54c0-439b-a436-47ac6e8fc45a")
+	)
+	(wire
+		(pts
+			(xy 111.76 96.52) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6784564c-749d-4212-9fbb-d974e802a9ee")
+	)
+	(wire
+		(pts
+			(xy 144.78 66.04) (xy 151.13 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a49e2a-ac76-4dae-a734-e92843d877db")
+	)
+	(wire
+		(pts
+			(xy 151.13 63.5) (xy 166.37 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69fc86d4-8507-46d5-9bc9-4686744a40ce")
+	)
+	(wire
+		(pts
+			(xy 144.78 114.3) (xy 151.13 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c246e81-f441-4433-8d59-271e36db62af")
+	)
+	(wire
+		(pts
+			(xy 111.76 74.93) (xy 138.43 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c31969a-f577-4687-8071-0d3097e8d7ce")
+	)
+	(wire
+		(pts
+			(xy 127 111.76) (xy 144.78 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c403101-7d7e-49d4-bf20-0811800e8b25")
+	)
+	(wire
+		(pts
+			(xy 111.76 62.23) (xy 138.43 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da17696-9228-478d-b0e4-d55cb3556d6c")
+	)
+	(wire
+		(pts
+			(xy 111.76 115.57) (xy 138.43 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e36b616-0908-4f33-9e02-8424a613cd0a")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 144.78 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7321efe6-7a86-4a14-8821-18612de40d4e")
+	)
+	(wire
+		(pts
+			(xy 111.76 109.22) (xy 127 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7359758e-fb91-4e0e-b7b6-f52cff19915a")
+	)
+	(wire
+		(pts
+			(xy 127 63.5) (xy 144.78 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768cebb7-4b99-4062-81f4-b6baa36169a2")
+	)
+	(wire
+		(pts
+			(xy 111.76 78.74) (xy 127 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ac4485-5c63-4324-a95c-d9b9293e1d55")
+	)
+	(wire
+		(pts
+			(xy 111.76 92.71) (xy 138.43 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78046b50-5611-4c88-a5ff-5bfbe5944292")
+	)
+	(wire
+		(pts
+			(xy 138.43 55.88) (xy 158.75 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78533c86-5d02-47aa-8fff-1e7752824d40")
+	)
+	(wire
+		(pts
+			(xy 138.43 69.85) (xy 166.37 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78fd30da-987a-435b-b902-70cd1696b077")
+	)
+	(wire
+		(pts
+			(xy 111.76 67.31) (xy 138.43 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "792d2717-8dfe-4bf7-a0ed-bc24d289a1a2")
+	)
+	(wire
+		(pts
+			(xy 111.76 105.41) (xy 138.43 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79db5f63-e40c-41ae-9984-956e154523ba")
+	)
+	(wire
+		(pts
+			(xy 111.76 86.36) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a21c2df-7e4c-4c70-a1d4-93e0bbabd62d")
+	)
+	(wire
+		(pts
+			(xy 144.78 88.9) (xy 151.13 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c890b5c-15d1-43c4-a312-f01e0964fc59")
+	)
+	(wire
+		(pts
+			(xy 111.76 73.66) (xy 127 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7efb059c-45bc-4a86-b544-47e88325cc5a")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 144.78 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7efeb78e-1d88-488b-bee2-bc5d654e32cc")
+	)
+	(wire
+		(pts
+			(xy 127 81.28) (xy 144.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8016d457-4144-49a5-84b1-d8c72e046963")
+	)
+	(wire
+		(pts
+			(xy 127 73.66) (xy 144.78 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "840473dc-f2a2-4a2f-89f4-e23d2065ed0a")
+	)
+	(wire
+		(pts
+			(xy 111.76 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8604846d-3706-4bc9-8ea7-bcedf50e0046")
+	)
+	(wire
+		(pts
+			(xy 127 91.44) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "866fa049-1df9-4792-9410-d37fd2801649")
+	)
+	(wire
+		(pts
+			(xy 138.43 105.41) (xy 166.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9643a8-57ec-4eb8-b7e4-3106408c4304")
+	)
+	(wire
+		(pts
+			(xy 151.13 86.36) (xy 166.37 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7fe3d4-f28d-4b52-8c20-c9b9ba982ccb")
+	)
+	(wire
+		(pts
+			(xy 151.13 116.84) (xy 166.37 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e901061-6ed0-4d82-837c-05e7e4a6c79d")
+	)
+	(wire
+		(pts
+			(xy 144.78 63.5) (xy 151.13 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef321aa-98f6-415c-8d2f-efd5dbaf893c")
+	)
+	(wire
+		(pts
+			(xy 138.43 64.77) (xy 166.37 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b86c30-97e9-43a1-a21d-85bd18e93317")
+	)
+	(wire
+		(pts
+			(xy 138.43 82.55) (xy 166.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e08b8f-28f6-4c44-8af0-553733c53d3e")
+	)
+	(wire
+		(pts
+			(xy 151.13 96.52) (xy 166.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942bbfed-9eb3-4eeb-b67a-5910e1ff6c86")
+	)
+	(wire
+		(pts
+			(xy 127 76.2) (xy 144.78 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a13cbe7-72e6-4ca4-a915-44402d6f3aec")
+	)
+	(wire
+		(pts
+			(xy 138.43 121.92) (xy 158.75 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45b4ba1-d022-412b-99ea-f776184040c6")
+	)
+	(wire
+		(pts
+			(xy 144.78 83.82) (xy 151.13 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a53e2037-d6db-4590-a245-01fe2a01da4b")
+	)
+	(wire
+		(pts
+			(xy 138.43 53.34) (xy 171.45 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6909363-3d7f-4240-a2e4-bb1528a2453c")
+	)
+	(wire
+		(pts
+			(xy 111.76 102.87) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79d43ef-8ce6-41a6-ad70-dc2b6af749b2")
+	)
+	(wire
+		(pts
+			(xy 144.78 99.06) (xy 151.13 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a830ebc2-ae99-4c5f-8f47-ecc0389bf831")
+	)
+	(wire
+		(pts
+			(xy 144.78 73.66) (xy 151.13 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac4bd79-bc45-4342-bc20-fb0c0b61c1f4")
+	)
+	(wire
+		(pts
+			(xy 138.43 77.47) (xy 166.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1d5c28-d6d6-4bf7-a4fa-f3d70815a577")
+	)
+	(wire
+		(pts
+			(xy 111.76 95.25) (xy 138.43 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9cd896-099c-4b88-a301-5d1d96e001c9")
+	)
+	(wire
+		(pts
+			(xy 111.76 116.84) (xy 127 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed92eb1-20d3-416f-bb6c-ef1b6107132b")
+	)
+	(wire
+		(pts
+			(xy 151.13 81.28) (xy 166.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af7335da-591b-4d45-98b1-f7a39a07d43d")
+	)
+	(wire
+		(pts
+			(xy 144.78 109.22) (xy 151.13 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1593670-4a90-4d57-8691-047fa0c90343")
+	)
+	(wire
+		(pts
+			(xy 138.43 67.31) (xy 166.37 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ffd39d-99ab-4234-9f2f-52794d4035f6")
+	)
+	(wire
+		(pts
+			(xy 111.76 97.79) (xy 138.43 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b703dca2-4e0a-43df-9cdb-5c6618b5e786")
+	)
+	(wire
+		(pts
+			(xy 151.13 66.04) (xy 166.37 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c437fd-b2ab-4800-96a5-4450ee0192a3")
+	)
+	(wire
+		(pts
+			(xy 151.13 78.74) (xy 166.37 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b98e97c0-2f5a-46a4-921c-21a1f1f0ec16")
+	)
+	(wire
+		(pts
+			(xy 144.78 68.58) (xy 151.13 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc502622-7fa5-45f4-b339-81b8a487b757")
+	)
+	(wire
+		(pts
+			(xy 138.43 107.95) (xy 166.37 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be3a7642-bf9c-4fb5-8393-f560ff717d0f")
+	)
+	(wire
+		(pts
+			(xy 111.76 93.98) (xy 127 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec753d5-7ea1-493d-8f29-5446535e911d")
+	)
+	(wire
+		(pts
+			(xy 151.13 73.66) (xy 166.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b2a728-4828-4e69-b2ab-a7efb1542e95")
+	)
+	(wire
+		(pts
+			(xy 151.13 83.82) (xy 166.37 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2877733-d9a7-428a-b786-7d545fc95206")
+	)
+	(wire
+		(pts
+			(xy 127 86.36) (xy 144.78 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31bf79b-9d51-4186-b4c5-db2685a5fe7f")
+	)
+	(wire
+		(pts
+			(xy 144.78 81.28) (xy 151.13 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a9d46d-427d-4f69-bbeb-a47aeac7bba5")
+	)
+	(wire
+		(pts
+			(xy 111.76 66.04) (xy 127 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e28de1-7146-491d-83e9-06e72975ce7d")
+	)
+	(wire
+		(pts
+			(xy 138.43 97.79) (xy 166.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94fdc52-08c7-4eaa-9634-954ea33952dc")
+	)
+	(wire
+		(pts
+			(xy 144.78 78.74) (xy 151.13 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9554527-57e1-4c01-9535-60f3d292c5b2")
+	)
+	(wire
+		(pts
+			(xy 151.13 99.06) (xy 166.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9998d53-574a-4cee-ba55-6009c8eb7884")
+	)
+	(wire
+		(pts
+			(xy 138.43 85.09) (xy 166.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8c10ee-888a-4cf0-a0a7-4c91da87d1ee")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 144.78 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe3cb41-76b7-4f72-8e36-d8424a6410fd")
+	)
+	(wire
+		(pts
+			(xy 151.13 93.98) (xy 166.37 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d015545a-c466-467a-a99f-5e44bca35e0d")
+	)
+	(wire
+		(pts
+			(xy 144.78 86.36) (xy 151.13 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1de78db-46e9-4a63-ba71-06f1ffd860b1")
+	)
+	(wire
+		(pts
+			(xy 111.76 83.82) (xy 127 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d1d64d-b1be-40bf-8260-db0bd1011249")
+	)
+	(wire
+		(pts
+			(xy 144.78 71.12) (xy 151.13 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ad0d39-e1ec-4690-bf3f-004701681cb9")
+	)
+	(wire
+		(pts
+			(xy 144.78 116.84) (xy 151.13 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ef3d26-dfd4-4871-950b-4582bc41ef0a")
+	)
+	(wire
+		(pts
+			(xy 127 116.84) (xy 144.78 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d886726b-e564-4aaf-a2d1-db0ecf4b0135")
+	)
+	(wire
+		(pts
+			(xy 127 66.04) (xy 144.78 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc89d1b-d967-4ef4-b114-5bf9c5db2c65")
+	)
+	(wire
+		(pts
+			(xy 111.76 85.09) (xy 138.43 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb9181f-5e60-4a0c-9840-2ddf5a77e892")
+	)
+	(wire
+		(pts
+			(xy 111.76 110.49) (xy 138.43 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06fc585-37d4-490f-9002-c75a47ebbe75")
+	)
+	(wire
+		(pts
+			(xy 111.76 64.77) (xy 138.43 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e142f562-1164-4fd7-a326-469a575c6515")
+	)
+	(wire
+		(pts
+			(xy 144.78 76.2) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15d37b8-7798-487e-b3e9-08e41bb1211c")
+	)
+	(wire
+		(pts
+			(xy 111.76 63.5) (xy 127 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d14ed3-c6ab-4a65-966b-879a8a113518")
+	)
+	(wire
+		(pts
+			(xy 151.13 111.76) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2500b04-c706-4bbd-9eff-05d6e462aae7")
+	)
+	(wire
+		(pts
+			(xy 138.43 95.25) (xy 166.37 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b8d4fc-ba59-49d5-9d0a-ded625c26f3e")
+	)
+	(wire
+		(pts
+			(xy 127 106.68) (xy 144.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea33dc11-c1b7-469d-90ef-14956918a783")
+	)
+	(wire
+		(pts
+			(xy 111.76 99.06) (xy 127 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5928a4-7eb1-4879-a9b9-806fe8a6108f")
+	)
+	(wire
+		(pts
+			(xy 138.43 55.88) (xy 138.43 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed0ae291-62f6-4a97-be0e-17ba8c1af4aa")
+	)
+	(wire
+		(pts
+			(xy 138.43 87.63) (xy 166.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd774fa-8a8f-4b74-8158-11124b76a2ad")
+	)
+	(wire
+		(pts
+			(xy 127 68.58) (xy 144.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec7b489-a1ff-4e9b-a49e-d2abe35e0fdb")
+	)
+	(wire
+		(pts
+			(xy 111.76 80.01) (xy 138.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee13821-fd40-4bfb-b1bf-41f1f185b4fa")
+	)
+	(wire
+		(pts
+			(xy 138.43 74.93) (xy 166.37 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1af9f38-dd83-4bd0-abf6-f96dbf0b539d")
+	)
+	(wire
+		(pts
+			(xy 111.76 60.96) (xy 127 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b3f9a6-5890-4467-ac53-6419724047f2")
+	)
+	(wire
+		(pts
+			(xy 138.43 92.71) (xy 166.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91283cb-48f2-4775-a249-17fc2f6b3714")
+	)
+	(wire
+		(pts
+			(xy 151.13 104.14) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa10e1d5-a27e-4a63-9cec-80245205fc83")
+	)
+	(wire
+		(pts
+			(xy 151.13 60.96) (xy 166.37 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc2483ae-2c1c-49b4-bd5f-bf25f6f69ed2")
+	)
+	(wire
+		(pts
+			(xy 144.78 104.14) (xy 151.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc68e4d-8253-4a9a-a85d-6a9d4b1b3c5d")
+	)
+	(wire
+		(pts
+			(xy 127 99.06) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fffc1958-7a4c-4e92-8020-4b2522f6f9cf")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cf9cd0b-66c4-45d8-b4d8-eea9ab817aa7")
+		(property "Reference" "TP2"
+			(at 143.256 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3233a03-1074-432d-9122-42b69bb68f70")
+		)
+		(instances
+			(project ""
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "133b09b9-cda1-4503-85ad-a2b513c575e5")
+		(property "Reference" "TP33"
+			(at 141.478 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e53a6779-ed14-4de2-9628-bb163d92ced9")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14c66db2-a881-4c14-8b89-27424be7191e")
+		(property "Reference" "TP28"
+			(at 135.128 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d03a529b-f2f1-47d3-aab8-ef01b2cf89a3")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1883df1f-7026-4d48-b82c-0ef38034abd7")
+		(property "Reference" "TP37"
+			(at 141.478 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e637bc2-8a8c-464b-ae9f-36ce7c190c18")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c10eb8f-6b95-4951-8dce-4deed723d544")
+		(property "Reference" "TP30"
+			(at 135.128 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cccbc30-8e7f-4057-a0d8-fdf02e737a44")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2068074a-d300-4e41-a5f4-5867f4122d4d")
+		(property "Reference" "TP19"
+			(at 141.478 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3093a7f9-2c91-4295-98aa-d5395f7a6304")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "216a88ed-7fbc-4b4e-997e-9df99337a810")
+		(property "Reference" "TP46"
+			(at 135.128 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38a401af-b743-4d47-a8d9-fdcdca77f606")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24123406-8ba0-46e0-b9b4-407eb607ac03")
+		(property "Reference" "TP24"
+			(at 135.128 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "997be064-842b-496e-8b1f-dcf45bf18150")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c34cefa-3174-446a-bb88-50e84d008b95")
+		(property "Reference" "TP18"
+			(at 135.128 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d15ce233-3aba-4239-b311-b49b4ac733de")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "360f5d23-b36a-4678-a52a-c31a6f8a6666")
+		(property "Reference" "TP10"
+			(at 135.128 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42f7255a-9cd6-4083-93cc-97d113dba976")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43415181-358d-4543-b23a-53725e2ca804")
+		(property "Reference" "TP7"
+			(at 141.478 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc7226d4-453b-4fb6-86d4-d52f12385204")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45490016-a435-42e4-93ca-15d31939194f")
+		(property "Reference" "TP5"
+			(at 141.478 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8615b064-2d3c-435f-b503-6925ad2fe218")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "495de5ba-89e0-48fa-9bc5-d0f982e91e10")
+		(property "Reference" "TP47"
+			(at 141.224 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 138.43 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3756d7d0-2fa9-4cbe-b77d-5f86c33a2efd")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d7391e7-19fb-44a7-8cfd-2f3a42792795")
+		(property "Reference" "TP26"
+			(at 135.128 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27547d57-3006-4906-b591-ea5f19ae4a8a")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53d5eb61-ba78-44b0-b6fb-befb3223c909")
+		(property "Reference" "TP43"
+			(at 141.478 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8671e67-5893-47fe-9675-f9daea2e49f2")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "553e0d79-de78-4cf2-8f05-704f4b9e0918")
+		(property "Reference" "TP34"
+			(at 135.128 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d61d2d13-9d36-4476-b44b-20a0e568112f")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5858f452-db39-4ef2-b963-c52efcd0138a")
+		(property "Reference" "TP45"
+			(at 141.478 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b68037c0-1576-45a4-a9ef-01a89e12b6c6")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e143a6f-9346-4822-b96b-7a08868ea8cb")
+		(property "Reference" "TP27"
+			(at 141.478 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d4664b7-293c-4270-a2b6-32e7b461fa19")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c5984f9-0117-4a0e-9068-6a318f2163cf")
+		(property "Reference" "TP15"
+			(at 141.478 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "403022fb-1828-4532-9db8-2f9d5f7acd90")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71ca8ad0-9aaa-4367-9392-792a9c6abf41")
+		(property "Reference" "TP40"
+			(at 135.128 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ca74705-1a6e-4abe-a6f4-628d67c38151")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "796e28e1-c6fb-4aab-9dc0-e518793846cd")
+		(property "Reference" "TP23"
+			(at 141.478 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a539f387-3bab-4678-9ccf-c2a117251060")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ca3a839-9245-47f1-b7a1-c201d62c1945")
+		(property "Reference" "TP36"
+			(at 135.128 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e11f4a8-02cd-4346-81fa-fa396ae7bcbf")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8058c639-9737-4c09-81d6-aadb6c10544e")
+		(property "Reference" "TP13"
+			(at 141.478 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8914dced-02cf-43ff-8a0a-75548ae5a25d")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8152c4fa-3b88-4b68-8b90-9c8967f41d3a")
+		(property "Reference" "TP22"
+			(at 135.128 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c335a791-b6a4-4fe4-9596-8cffaf72c0aa")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a413418-8c20-4785-a18d-992b2610bb09")
+		(property "Reference" "TP3"
+			(at 141.478 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdcdf9c9-d29f-481c-89e5-16d67f7d6759")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b08bdc4-e3c8-4204-8761-4df1cf12c31b")
+		(property "Reference" "TP8"
+			(at 135.128 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21565695-672e-4eae-8b1a-e5ced683ea05")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ceddac8-a740-4c0b-beac-5c1e665f2475")
+		(property "Reference" "TP21"
+			(at 141.478 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87f9ed16-43b4-48d0-92f3-000c2e59386e")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "921f3b83-76c2-4b42-9bbd-a56c9434770b")
+		(property "Reference" "TP32"
+			(at 135.128 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c2668bc-378c-416f-b116-b01a155cca12")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95a860d1-0e5a-412b-a7fa-4ec1d506cbe1")
+		(property "Reference" "TP14"
+			(at 135.128 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db51aed6-557e-49d3-9510-d30d2e300ca0")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ff11ddb-d859-4e62-8e88-342ec719a45e")
+		(property "Reference" "TP44"
+			(at 135.128 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8d027d3-9afa-46db-b99c-306939ca6c42")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a18c8525-5d50-4970-8899-cd6db14a6ef8")
+		(property "Reference" "TP11"
+			(at 141.478 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3591d29-33d1-41fc-89ad-259a0fd1be5a")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:THD0310-45CL-GF")
+		(at 158.75 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0211da9-60e5-4231-aee8-78ec668b6a00")
+		(property "Reference" "U2"
+			(at 160.8933 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1-2040832-8"
+			(at 160.8933 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "theBrutzler:FPC-SMD_45P-P0.50"
+			(at 158.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19078618"
+			(at 158.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "24766b1e-e1b2-4870-9ffb-e8566e32fc99")
+		)
+		(pin "43"
+			(uuid "e9f74d4f-acbf-4a15-a689-633871cf9dfd")
+		)
+		(pin "47"
+			(uuid "2bc2cb82-c9b5-4a91-9ea8-f2249fb567d9")
+		)
+		(pin "7"
+			(uuid "3abbe603-2088-4445-8681-b9c414045b64")
+		)
+		(pin "15"
+			(uuid "657abc35-c17e-42d0-b0b1-887460708342")
+		)
+		(pin "8"
+			(uuid "3627ba75-c9c4-490a-81b2-5cf6bae278fb")
+		)
+		(pin "12"
+			(uuid "d6f08829-f2ea-44c8-959f-e32b61077bd1")
+		)
+		(pin "2"
+			(uuid "2df24ee6-5fe0-46de-9370-80ff848004a6")
+		)
+		(pin "9"
+			(uuid "fa1554c9-c8ac-4929-836f-6700ca2ca0da")
+		)
+		(pin "11"
+			(uuid "4d35ecd2-8232-4424-8a2a-8dc70e42d014")
+		)
+		(pin "3"
+			(uuid "bf986c72-5e45-4a3d-92ec-7eb045482c10")
+		)
+		(pin "13"
+			(uuid "c67bc51c-a057-411d-9a5d-bc470e05e465")
+		)
+		(pin "21"
+			(uuid "1da26c0e-255f-4e3a-9e2c-2c46ee8b4616")
+		)
+		(pin "25"
+			(uuid "9ffffbdc-24cc-4bbf-bea7-6d467e85e5ea")
+		)
+		(pin "29"
+			(uuid "f6976d6e-31d5-4279-aa7e-a80a39b404cf")
+		)
+		(pin "27"
+			(uuid "4314b40d-5441-4497-944d-b816f49db2f5")
+		)
+		(pin "31"
+			(uuid "948266ae-749c-454d-8379-382d8381e4d0")
+		)
+		(pin "35"
+			(uuid "73a5e3a6-982b-487e-86dd-92e0aab8db1e")
+		)
+		(pin "37"
+			(uuid "c65965b8-abdd-4a13-ae1e-fe850e9ddf89")
+		)
+		(pin "1"
+			(uuid "94fd9dfc-f3a7-4c36-b6ea-e20008922e5f")
+		)
+		(pin "17"
+			(uuid "6b68abb0-d2c0-41ac-b0e8-e501ed02fb8d")
+		)
+		(pin "39"
+			(uuid "9ccdee6b-cca8-4c04-8a2f-3f2fc94af77f")
+		)
+		(pin "19"
+			(uuid "80e6e2bf-90d3-4ae9-9028-8ec58d64e509")
+		)
+		(pin "23"
+			(uuid "cce8e0ce-cf47-47fd-bfa4-489772fcbecc")
+		)
+		(pin "33"
+			(uuid "ea370aac-e84c-4236-8b41-451b0a3da330")
+		)
+		(pin "41"
+			(uuid "4a5fb7ca-b07c-408d-88a4-db2956cb1f56")
+		)
+		(pin "45"
+			(uuid "affb4ac5-3ab7-4f19-a17f-4aac9c3a8553")
+		)
+		(pin "46"
+			(uuid "f9fb5151-732f-41f6-be33-6ce73a073763")
+		)
+		(pin "4"
+			(uuid "34ec8881-71f6-4a17-8326-33994f591325")
+		)
+		(pin "6"
+			(uuid "c03f0756-37ea-471d-9679-5d8d037bb7d4")
+		)
+		(pin "10"
+			(uuid "ff96c135-87f0-4c73-ab7d-978d8d042e32")
+		)
+		(pin "30"
+			(uuid "15498f0f-4a40-462e-b6ac-03cd494f5a26")
+		)
+		(pin "24"
+			(uuid "babe401b-ec05-4ddb-95e1-c4c1bb381eba")
+		)
+		(pin "42"
+			(uuid "7332cc61-4d30-43e5-ab0d-c7757d75df6f")
+		)
+		(pin "34"
+			(uuid "19868e85-d945-466c-9a52-252c937cdce8")
+		)
+		(pin "14"
+			(uuid "027264cf-8e36-416f-ae2f-03294933113b")
+		)
+		(pin "16"
+			(uuid "45b229a9-43fb-44c2-a7ce-d299fc839268")
+		)
+		(pin "32"
+			(uuid "3cbf9489-051b-4c1f-8b53-2e9e15795fdf")
+		)
+		(pin "44"
+			(uuid "c6fc41fc-2f28-4de2-9852-005eb641b7d5")
+		)
+		(pin "18"
+			(uuid "74039aee-8a15-437b-8e22-3243ccb9cf51")
+		)
+		(pin "22"
+			(uuid "40703a41-25eb-44b0-8830-3f11847403fd")
+		)
+		(pin "28"
+			(uuid "05593623-a5eb-4ec4-9f0b-c42e5942a479")
+		)
+		(pin "26"
+			(uuid "6a5b2326-28f9-4129-bf3d-ec3a902da96d")
+		)
+		(pin "38"
+			(uuid "df5942f9-8dc5-4741-8198-2e071bb13c73")
+		)
+		(pin "40"
+			(uuid "e3ff47eb-40a2-49d7-a414-e74f36f37077")
+		)
+		(pin "20"
+			(uuid "bfe222a9-c309-40bc-ba0f-ed5cbb1476e7")
+		)
+		(pin "36"
+			(uuid "2d0ef235-3274-471c-a446-acd68a068714")
+		)
+		(instances
+			(project ""
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4fb2c8c-b6e1-4e0b-9184-4c8513693bdf")
+		(property "Reference" "TP42"
+			(at 135.128 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfa5a0a2-b72b-4ea8-8c40-b12a24a89ae8")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc5bfefe-7275-4df0-82f3-102f6d11db84")
+		(property "Reference" "TP9"
+			(at 141.478 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c87b0e58-d2df-4620-a42e-c9c995bf273e")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc5d56b3-fe9a-44d9-bc28-c057a4c44852")
+		(property "Reference" "TP20"
+			(at 135.128 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49085833-7f4c-4e45-b4e1-a429be7ede8c")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd750772-dfc5-4119-817d-6e14d43fcfc2")
+		(property "Reference" "TP16"
+			(at 135.128 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fc740e7-3b8c-4ed4-96f1-ae822d342b9f")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c06fb6af-34a7-4d38-be70-3852d922ac21")
+		(property "Reference" "TP35"
+			(at 141.478 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "203099e4-b698-4dd6-98a8-f84039cfde59")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c55337e5-d11d-4387-8e63-244c8350e99e")
+		(property "Reference" "TP41"
+			(at 141.478 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba4727d4-7ce2-4d61-ae3e-cc47c5db2b9a")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7b9d0ab-7051-4e68-8f62-bff661295717")
+		(property "Reference" "TP4"
+			(at 135.128 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26b97b39-0e79-4465-a9a9-3d2045b4d1a5")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d912871e-d932-4453-952d-6eb1dbe47723")
+		(property "Reference" "TP38"
+			(at 135.128 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f0e3cdf-a52a-4508-9608-d69cc3e355c8")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da4e0420-8664-4140-bcbe-014688a3865a")
+		(property "Reference" "TP29"
+			(at 141.478 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39126760-8318-4005-be73-301f797676ce")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db0372d1-15dc-41ca-af88-c5d93110ee5e")
+		(property "Reference" "TP31"
+			(at 141.478 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbf5b9fe-affc-4905-8f19-0af6c3aafd60")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcca7f57-3af0-4ff3-955a-b297385aab83")
+		(property "Reference" "TP6"
+			(at 135.128 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c446712-3d2b-481a-8e72-a434e54ffff7")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9a33905-de09-43c3-a228-f4fe49034938")
+		(property "Reference" "TP12"
+			(at 135.128 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 138.43 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b87f7018-3029-4195-aafd-da509520d887")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:THD0310-45CL-GF")
+		(at 119.38 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eba761ea-d0fd-426e-99c2-6beeeae59887")
+		(property "Reference" "U1"
+			(at 117.2367 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1-2040832-8"
+			(at 109.22 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "theBrutzler:FPC-SMD_45P-P0.50"
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19078618"
+			(at 119.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "0fd0ab3f-a36a-47f6-8e51-8a26f442ebd2")
+		)
+		(pin "3"
+			(uuid "9629feec-0840-4472-8fd0-6c019868d104")
+		)
+		(pin "7"
+			(uuid "f233c0e4-b616-4fee-9a84-bf8c13c383f6")
+		)
+		(pin "9"
+			(uuid "1533844b-4c5f-475d-96f8-fd3f4ad7185a")
+		)
+		(pin "37"
+			(uuid "38ea291c-aa5a-4dcf-8bdd-0c2b3fa9e3ca")
+		)
+		(pin "45"
+			(uuid "bb728800-a9ff-4b27-9a40-de861d15bcbc")
+		)
+		(pin "5"
+			(uuid "09dfe94f-9390-43e8-904f-7c84cfef2c15")
+		)
+		(pin "19"
+			(uuid "cd56eabc-f9b7-4ce8-822b-003c5bcb4d6b")
+		)
+		(pin "13"
+			(uuid "e336f3d8-dfd9-4014-91ad-6cf44bf499f6")
+		)
+		(pin "21"
+			(uuid "c10ad0fc-52ee-4b4a-a484-cfccc37f3fab")
+		)
+		(pin "23"
+			(uuid "0f90da54-ea54-4f58-91fc-3c0f0a8ee3b5")
+		)
+		(pin "15"
+			(uuid "8ea9b211-9267-46f3-936c-f9cdf7395a65")
+		)
+		(pin "1"
+			(uuid "f75d9924-2db0-4aa3-aee3-c7a86a296ed4")
+		)
+		(pin "17"
+			(uuid "c8ec5704-bce2-4e6d-bbae-81a31847c954")
+		)
+		(pin "25"
+			(uuid "e6bccd4c-4f97-4cd6-9c51-5afda4074548")
+		)
+		(pin "27"
+			(uuid "f80d11a6-b7ab-40cd-a13d-34beea3a27b1")
+		)
+		(pin "31"
+			(uuid "db195032-ad5c-436f-88f4-0d734e0d0f48")
+		)
+		(pin "33"
+			(uuid "6ba1b665-809a-4f36-add6-ed04f484e114")
+		)
+		(pin "35"
+			(uuid "cbe045bf-f7a5-42b8-8751-5228d630fe2a")
+		)
+		(pin "29"
+			(uuid "d50adcb2-e11f-4116-b17b-76d933b7626e")
+		)
+		(pin "39"
+			(uuid "f24ba286-eeb9-4dff-84c6-adea076dee13")
+		)
+		(pin "41"
+			(uuid "05cf192e-a344-4110-916f-17a87ea2c10f")
+		)
+		(pin "43"
+			(uuid "ea3b936d-c811-44ae-84e4-d30e99522573")
+		)
+		(pin "10"
+			(uuid "9c6aa5e7-368c-4191-b36b-60ba5f856c78")
+		)
+		(pin "47"
+			(uuid "3a98445c-005f-4daf-90f2-c7f4716e0158")
+		)
+		(pin "30"
+			(uuid "be57a584-f80c-449a-bf89-134b1dc4a467")
+		)
+		(pin "4"
+			(uuid "777c3067-642a-4007-abf3-cac0c8da218c")
+		)
+		(pin "16"
+			(uuid "4ca01d2d-2088-49d5-a0a3-2e35011bc2c9")
+		)
+		(pin "38"
+			(uuid "5833366f-fe34-480f-99ed-5d8966907ab8")
+		)
+		(pin "22"
+			(uuid "5e0e0d17-851a-48c2-83a8-2a6083ca09da")
+		)
+		(pin "24"
+			(uuid "ef3d5659-435c-4b3a-8d12-7407fc4d30c0")
+		)
+		(pin "28"
+			(uuid "eba499e9-97ea-4a13-ad1a-bca8949e84fb")
+		)
+		(pin "46"
+			(uuid "c4eaf470-5f81-42f3-a8c8-2f2ef438aa36")
+		)
+		(pin "44"
+			(uuid "cd144b45-f67c-49a4-b7a1-a829ec1c0a59")
+		)
+		(pin "8"
+			(uuid "748d06d1-74c9-4e06-88b5-2292754d705e")
+		)
+		(pin "42"
+			(uuid "37711d58-fd17-4463-aeb5-c8d8c3b1f456")
+		)
+		(pin "40"
+			(uuid "ac051667-0116-4814-a7c2-e898bf46cac0")
+		)
+		(pin "18"
+			(uuid "5012513a-f9e8-4eb5-93f2-ba1dc2065662")
+		)
+		(pin "26"
+			(uuid "cb30e0e3-4a76-411d-8f50-1134d087824d")
+		)
+		(pin "2"
+			(uuid "8d121076-eb45-400d-b2eb-54538a415970")
+		)
+		(pin "12"
+			(uuid "2b2eee44-6455-4cba-8567-8f26e98f3103")
+		)
+		(pin "6"
+			(uuid "8fd1d743-d695-4291-9345-5a0bf2582beb")
+		)
+		(pin "14"
+			(uuid "99ec64b5-87db-4e02-89b6-9e611e75626e")
+		)
+		(pin "20"
+			(uuid "e5aa991b-204b-47cd-8e8d-38e699b30bdc")
+		)
+		(pin "32"
+			(uuid "95e765dd-fcf8-459a-a13c-be2609a5f51b")
+		)
+		(pin "34"
+			(uuid "f9df4e2d-84d7-4d16-aab7-dacff7ea064c")
+		)
+		(pin "36"
+			(uuid "81f256a5-b8ca-42ca-99bd-c0303c6b6c3d")
+		)
+		(instances
+			(project ""
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecf19acd-3957-4a1d-bb20-f70e683bff4a")
+		(property "Reference" "TP17"
+			(at 141.478 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a86d88f-1b77-436b-a4a8-d2da3c6e55c8")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f24dec21-de29-42a1-9460-fcd22a8d0189")
+		(property "Reference" "TP25"
+			(at 141.478 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ed3cd29-953d-4c40-98ac-56f8fe9105b9")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2e0dc17-0e62-4199-859d-0d8632343914")
+		(property "Reference" "TP39"
+			(at 141.478 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "theBrutzler:TestPoint_Pad_D0.7mm_without_spacing"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95d227c8-9b91-4d23-91f5-c4d373052d49")
+		)
+		(instances
+			(project "Display_Interface_Debuger"
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc2ff42c-45c6-4215-a437-481f81e36aad")
+		(property "Reference" "TP1"
+			(at 135.128 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2aaf93f6-3b3f-453e-9b6d-13e423cffb86")
+		)
+		(instances
+			(project ""
+				(path "/9f2ae790-39a4-473a-bf14-6f9b527af354"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

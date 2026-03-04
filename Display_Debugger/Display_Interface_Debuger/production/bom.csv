@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+SM3,Symbol_kurzschlussblog,1,SYM_Arrow45_Tiny,
+"TP1, TP47",TestPoint_Loop_D2.50mm_Drill1.0mm,2,TestPoint,
+"TP10, TP11, TP12, TP13, TP14, TP15, TP16, TP17, TP18, TP19, TP2, TP20, TP21, TP22, TP23, TP24, TP25, TP26, TP27, TP28, TP29, TP3, TP30, TP31, TP32, TP33, TP34, TP35, TP36, TP37, TP38, TP39, TP4, TP40, TP41, TP42, TP43, TP44, TP45, TP46, TP5, TP6, TP7, TP8, TP9",TestPoint_Pad_D0.7mm_without_spacing,45,TestPoint,
+"U1, U2",FPC-SMD_45P-P0.50,2,1-2040832-8,C19078618
